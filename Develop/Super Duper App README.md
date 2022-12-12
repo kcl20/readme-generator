@@ -1,26 +1,27 @@
 
-    # Super Duper App
+        # Super Duper App
 
-    ## Description
-    desc
+        ## Description
+        My description is...
 
-    ## Installation
-    install
+        ## Installation
+        How to install...
 
-    ## Usage
-    use
+        ## Usage
+        How to use...
 
-    ## License
-    Apache license 2.0
+        ## License
+        [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+        Creative Commons license family
 
-    ## Contributing
-    contribute
+        ## Contributing
+        How to contribute...
 
-    ## Tests
-    test
+        ## Tests
+        How to test...
 
-    ## Questions
-    Visit my Github profile at https://github.com/kcl20 
-    or
-    Contact me at kcl20@outlook.com.
-    
+        ## Questions
+        Visit my Github profile at [https://github.com/kcl20](https://github.com/kcl20 'My Github Profile') 
+        or
+        Contact me at email@fakeemail.com.
+        
