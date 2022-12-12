@@ -88,6 +88,11 @@ const questions = [
         message: "What is your Github username?",
         name: 'github',
     },
+    {
+        type: 'input',
+        message: "What is your email?",
+        name: 'email',
+    },
 ];
 
 // TODO: Create a function to write README file
@@ -97,9 +102,39 @@ function writeToFile(fileName, data) {}
 function init() {
     inquirer
     .prompt(questions)
+
+
+
     .then((response) => {
+        var readmeContent = `
+    # ${response.title}
+
+    ## Description
+    ${response.description}
+
+    ## Installation
+    ${response.installation}
+
+    ## Usage
+    ${response.usage}
+
+    ## License
+    ${response.license}
+
+    ## Contributing
+    ${response.contributing}
+
+    ## Tests
+    ${response.tests}
+
+    ## Questions
+    Visit my Github profile at https://github.com/${response.github} 
+    or
+    Contact me at ${response.email}.
+    `;
     console.log(response.title);
-        fs.writeFile(response.title+" README.md", response.github, (err) =>
+
+        fs.writeFile(response.title+" README.md", readmeContent, (err) =>
         err ? console.error(err) : console.log('Success!')
         );
 })
