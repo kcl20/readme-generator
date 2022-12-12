@@ -98,8 +98,8 @@ function init() {
     inquirer
     .prompt(questions)
     .then((response) => {
-    console.log(title, description, installation, usage, contributing, issues, tests, license, github);
-        fs.appendFile(title+" README.md", response, (err) =>
+    console.log(response.title);
+        fs.writeFile(response.title+" README.md", response.github, (err) =>
         err ? console.error(err) : console.log('Success!')
         );
 })
