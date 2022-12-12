@@ -4,7 +4,7 @@
 
 Command line application to quickly and easily create a README file.
 
-Link to walkthrough video: Microsoft_ Edge - How to Install NodeJS _ The Full-Stack Blog and 42 more pages - Personal - Microsoft_ Edge - 11 December 2022.mp4
+Link to walkthrough video: https://github.com/kcl20/readme-generator/blob/main/Microsoft_%20Edge%20-%20How%20to%20Install%20NodeJS%20_%20The%20Full-Stack%20Blog%20and%2042%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge%20-%2011%20December%202022.mp4
 
 
 ## Installation
